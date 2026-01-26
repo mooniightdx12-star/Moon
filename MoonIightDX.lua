@@ -154,7 +154,8 @@ addButton(tabFrames["Visuals"],"Chams","https://raw.githubusercontent.com/Exunys
 addButton(tabFrames["Visuals"],"Rainbow Character","https://raw.githubusercontent.com/RobloxianRoblox3200/Scripts_Roblox/main/Esp_v4.lua")
 
 -- ✅ Combat (unchanged URL, just wrapped)
-addButton(tabFrames["Combat"],"TSB Moveset Hub","https://github.com/Guestly-Second-Account/Custom-Movesets-Hub/raw/main/Tsb%20script%20credits%20by%20Darker")
+addButton(tabFrames["Combat"],"TSB Hub","loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"))()
+")
 
 -- ✅ Special (XVC kept as you said)
 addButton(tabFrames["Special"],"XVC Hub","https://raw.githubusercontent.com/Skeleton19/XVC-Hub/main/code.lua")
