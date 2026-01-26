@@ -138,29 +138,28 @@ local function addButton(tab,name,url)
     end)
 end
 
--- ✅ Utilities (fixed)
+-- Utilities
 addButton(tabFrames["Utilities"],"Infinite Yield","https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
 addButton(tabFrames["Utilities"],"Dex Explorer","https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua")
 addButton(tabFrames["Utilities"],"Remote Spy","https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua")
 
--- ✅ Fun (fixed)
+-- Fun
 addButton(tabFrames["Fun"],"Fly Script","https://pastebin.com/raw/CxjL8zYV")
 addButton(tabFrames["Fun"],"Gravity Gun","https://raw.githubusercontent.com/lilmond/roblox_fly_script/main/v3.lua")
 addButton(tabFrames["Fun"],"Speed Boost","https://raw.githubusercontent.com/TrixAde/scripts/main/Btools.lua")
 
--- ✅ Visuals (fixed)
+-- Visuals
 addButton(tabFrames["Visuals"],"ESP Script","https://raw.githubusercontent.com/wa0101/Roblox-ESP/refs/heads/main/esp.lua")
 addButton(tabFrames["Visuals"],"Chams","https://raw.githubusercontent.com/Exunys/Exunys-ESP/main/src/ESP.lua")
 addButton(tabFrames["Visuals"],"Rainbow Character","https://raw.githubusercontent.com/RobloxianRoblox3200/Scripts_Roblox/main/Esp_v4.lua")
 
--- ✅ Combat (unchanged URL, just wrapped)
-addButton(tabFrames["Combat"],"TSB Hub","loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"))()
-")
+-- Combat (FIXED)
+addButton(tabFrames["Combat"],"TSB Hub","https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua")
 
--- ✅ Special (XVC kept as you said)
+-- Special
 addButton(tabFrames["Special"],"XVC Hub","https://raw.githubusercontent.com/Skeleton19/XVC-Hub/main/code.lua")
 
--- ✅ Games (fixed, XVC/Funky Friday untouched where relevant)
+-- Games
 addButton(tabFrames["Games"],"Funky Friday","https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader")
 addButton(tabFrames["Games"],"Blox Fruits","https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
 addButton(tabFrames["Games"],"Brookhaven","https://raw.githubusercontent.com/TrixAde/scripts/main/BrokenBones.lua")
@@ -190,7 +189,7 @@ UIS.InputBegan:Connect(function(input,gp)
     end
 end)
 
--- On-screen toggle button (PC + Mobile)
+-- On-screen toggle button
 local toggle = Instance.new("TextButton")
 toggle.Size = UDim2.new(0,60,0,60)
 toggle.Position = UDim2.new(0,20,0.5,-30)
